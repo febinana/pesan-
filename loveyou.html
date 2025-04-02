@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Mengatur elemen dalam kolom */
+            align-items: center; /* Menyusun elemen di tengah */
+        }
+        img {
+            width: 100%; /* Gambar responsif */
+            max-width: 700px; /* Ukuran maksimum */
+            height: auto; /* Mempertahankan rasio aspek */
+            border-radius: 8px; /* Sudut membulat */
+            cursor: pointer; /* Menunjukkan bahwa gambar dapat diklik */
+            margin-top: 20px;
+            width: 300px;
+            height: 170px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            margin-top: 200px;
+            font-size: 28px; /* Ukuran font untuk judul */
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px; /* Ukuran font yang lebih kecil untuk perangkat seluler */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Klik Gambar di Bawah Ini</h1>
+    <div class="container">
+        <a href="asyaa.html" target="_self"> <!-- Ganti dengan nama file HTML yang sesuai -->
+            <img src="love.jpeg" alt="Gambar simbol cinta dalam amplop">
+        </a>
+    </div>
+</body>
+</html>
